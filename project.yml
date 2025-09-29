@@ -1,0 +1,20 @@
+
+name: CameraApp
+options:
+  deploymentTarget:
+    iOS: "14.0"
+targets:
+  CameraApp:
+    type: application
+    platform: iOS
+    sources:
+      - path: CameraApp
+    info:
+      path: CameraApp/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.CameraApp
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        ENABLE_BITCODE: NO
